@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fruktur"
+        android:text="Android based image normalization using contrast improvement"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fruktur"
+        android:text="Fashanu Ruth oluwatosin\nHND/18/COM/FT/130"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fruktur"
+        android:text="Please wait...."
+        android:textAllCaps="true"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
